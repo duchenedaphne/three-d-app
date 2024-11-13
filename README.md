@@ -3,9 +3,9 @@
 This is my first real time animated 3D app
 
 ## 🛠 Stack
-React JS 
-Vite JS
-Tailwind CSS
+React JS  
+Vite JS  
+Tailwind CSS  
 Blender
 
 ## 🛴 Get started
