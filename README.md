@@ -11,13 +11,16 @@ Blender
 ## 🛴 Get started
 
 1 - Clone this repository :
-> `git clone https://github.com/duchenedaphne/three-d-app`
+
+    git clone https://github.com/duchenedaphne/three-d-app
 
 2 - Install the dependencies
-> `npm install`
+
+    npm install
 
 3 - Launch the app
-> `npm run dev`
+
+    npm run dev
 
 ## ✍ Author
 Daphné Duchêne
