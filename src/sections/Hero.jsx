@@ -1,6 +1,5 @@
 import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera, CameraControls } from '@react-three/drei';
-import HackerRoom from '../components/HackerRoom';
 import { Suspense } from 'react';
 import CanvasLoader from '../components/CanvasLoader';
 import { useMediaQuery } from 'react-responsive';
@@ -9,7 +8,6 @@ import Target from '../components/Target';
 import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube';
 import Rings from '../components/Rings';
-import HeroCamera from '../components/HeroCamera';
 import Button from '../components/Button';
 import Rocket from '../components/Rocket';
 
@@ -37,18 +35,10 @@ const Hero = () => {
                     <CameraControls />
 
                     <Suspense fallback={<CanvasLoader />}>
-                        {/* <HeroCamera isMobile={isMobile}> */}
-                            {/* <HackerRoom 
-                                position={sizes.deskPosition}
-                                scale={sizes.deskScale}
-                                rotation={[0, -Math.PI, 0]}
-                            /> */}
-
-                            <Rocket 
-                                position={[0, -2, 0]}
-                                scale={0.6}
-                            />
-                        {/* </HeroCamera> */}
+                        <Rocket
+                            position={[0, -2, 0]}
+                            scale={0.6}
+                        />
                     </Suspense>
 
                     <Suspense fallback={<CanvasLoader />}>
@@ -61,9 +51,9 @@ const Hero = () => {
                     </Suspense>
 
                     <ambientLight intensity={2.2} />
-                    <directionalLight 
-                        position={[10, 10, 10]} 
-                        intensity={4} 
+                    <directionalLight
+                        position={[10, 10, 10]}
+                        intensity={4}
                     />
                 </Canvas>
             </div>
