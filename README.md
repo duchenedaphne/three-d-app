@@ -14,6 +14,10 @@ This is my first real time animated 3D application, built using React Three Fibe
 
 - Responsive Design: Styled with Tailwind CSS for a flexible and modern UI.
 
+![.](https://github.com/duchenedaphne/three-d-app/public/assets/project_screenshot.png)
+
+Test it yourself [here](https://duchenedaphne.github.io/three-d-app/).
+
 ## 🛠 Tech Stack
 
     React  
