@@ -2,17 +2,17 @@
 export const navLinks = [
     {
         id: 1,
-        name: 'Home',
-        href: '/',
+        name: 'Accueil',
+        href: 'https://github.com/duchenedaphne/three-d-app',
     },
     {
         id: 2,
-        name: 'About',
+        name: 'À propos',
         href: 'https://github.com/duchenedaphne',
     },
     {
         id: 3,
-        name: 'Work',
+        name: 'Projets',
         href: '/',
     },
     {
