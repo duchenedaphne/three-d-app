@@ -1,18 +1,24 @@
 # My first 3D app
 
-This is my first real time animated 3D application, built using React Three Fiber and React Three Drei for WebGL rendering.
+This is my first real time animated 3D application,  
+built using React Three Fiber and React Three Drei for WebGL rendering.
 
 ## 🚀 Features
 
-- Interactive 3D Model: A GLB model created with Blender, imported and animated in the scene.
+- Interactive 3D Model:  
+A GLB model created with Blender, imported and animated in the scene.
 
-- Camera Controls: Implemented using CameraControls from React Three Drei for smooth user navigation.
+- Camera Controls:  
+Implemented using CameraControls from React Three Drei for smooth user navigation.
 
-- Click Interaction: Rotation effect on model when clicked.
+- Click Interaction:  
+Rotation effect on model when clicked.
 
-- Optimized Performance: Efficient rendering and animations using React Three Fiber.
+- Optimized Performance:  
+Efficient rendering and animations using React Three Fiber.
 
-- Responsive Design: Styled with Tailwind CSS for a flexible and modern UI.
+- Responsive Design:  
+Styled with Tailwind CSS for a flexible and modern UI.
 
 You can test it [here](https://duchenedaphne.github.io/three-d-app/).
 
@@ -34,8 +40,8 @@ You can test it [here](https://duchenedaphne.github.io/three-d-app/).
     |- node_modules
     |- public
         |- assets
-        |- models
-        |- textures
+            |- models
+            |- textures
     |- src
         |- components
         |- constants
@@ -43,15 +49,15 @@ You can test it [here](https://duchenedaphne.github.io/three-d-app/).
 
 ## 🛴 Get started
 
-1 - Clone this repository :
+1️⃣ Clone this repository 
 
     git clone https://github.com/duchenedaphne/three-d-app
 
-2 - Navigate to the project folder and install the dependencies :
+2️⃣ Navigate to the project folder and install the dependencies 
 
     npm install
 
-3 - Start the development server:
+3️⃣ Start the development server
 
     npm run dev
 
