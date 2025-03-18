@@ -3,6 +3,17 @@
 This is my first real time animated 3D application,  
 built using React Three Fiber and React Three Drei for WebGL rendering.
 
+## 🛠 Tech Stack
+
+- React  
+- Vite JS  
+- JavaScript  
+- React Three Fiber  
+- React Three Drei  
+- GSAP  
+- Tailwind CSS  
+- Blender
+
 ## 🚀 Features
 
 - Interactive 3D Model:  
@@ -23,17 +34,6 @@ Styled with Tailwind CSS for a flexible and modern UI.
 You can test it [here](https://duchenedaphne.github.io/three-d-app/).
 
 ![alt text](project_screenshot.png)
-
-## 🛠 Tech Stack
-
-    React  
-    Vite JS  
-    JavaScript  
-    React Three Fiber  
-    React Three Drei  
-    GSAP  
-    Tailwind CSS  
-    Blender
 
 ## 🏗 Project Structure
 
