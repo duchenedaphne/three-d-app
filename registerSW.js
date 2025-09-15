@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/three-d-app/sw.js', { scope: '/three-d-app/' })})}
