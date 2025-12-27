@@ -35,31 +35,5 @@ You can test it [here](https://duchenedaphne.github.io/three-d-app/).
 
 ![alt text](project_screenshot.png)
 
-## 🏗 Project Structure
-
-    |- node_modules
-    |- public
-        |- assets
-            |- models
-            |- textures
-    |- src
-        |- components
-        |- constants
-        |- sections
-
-## 🛴 Get started
-
-1️⃣ Clone this repository 
-
-    git clone https://github.com/duchenedaphne/three-d-app
-
-2️⃣ Navigate to the project folder and install the dependencies 
-
-    npm install
-
-3️⃣ Start the development server
-
-    npm run dev
-
 ## ✍ Author
 Daphné Duchêne
